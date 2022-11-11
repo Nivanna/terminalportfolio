@@ -1,0 +1,113 @@
+
+
+@media only screen and (max-width: 285px) {
+    .commands .commandsname {
+      margin : 0;
+      padding: 0;
+      font-size: .3em;
+    }
+
+    .commands .commandslist {
+        margin-left: 1em;
+    }
+    .commands .commandtext {
+      padding: 0;
+      margin: 0;
+      font-size: .5em;
+      margin-left: -15px;
+    }
+  }
+@media only screen and (max-width: 360px) and (min-width:285px){
+    .commands .commandsname {
+        margin : 0;
+        padding: 0;
+        font-size: .3em;
+      }
+
+      .commands .commandslist {
+        margin-left: 1em;
+        }
+  
+      .commands .commandtext {
+        padding: 0;
+        margin: 0;
+        font-size: .8em;
+        margin-left: -15px;
+      }
+  }
+  
+  @media only screen and (max-width: 425px) and (min-width:360px) {
+    .commands .commandsname {
+      margin : 0;
+      padding: 0;
+      font-size: .4em;
+    }
+
+    .commands .commandslist {
+        margin-left: 1em;
+    }
+  
+    .commands .commandtext {
+      padding: 0;
+      margin: 0;
+      font-size: .9em;
+      margin-left: -15px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) and (min-width:425px) {
+    .commands .commandsname {
+      margin : 0;
+      padding: 0;
+      font-size: .5em;
+    }
+    .commands .commandslist {
+        margin-left: 1.25em;
+    }
+    .commands .commandtext {
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+      margin-left: -15px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) and (min-width:500px) {
+    .commands .commandsname {
+      margin : 0;
+      padding: 0;
+      font-size: .6em;
+    }
+    .commands .commandslist {
+        margin-left: 1.5em;
+    }
+    .commands .commandtext {
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+      margin-left: -15px;
+    }
+  }
+  
+  @media only screen and (max-width: 1040px) and (min-width:900px) {
+    .commands .commandsname {
+      margin : 0;
+      padding: 0;
+      font-size: .8em;
+    }
+
+    .commands .commandslist {
+        margin-left: 1.75em;
+    }
+  
+    .commands .commandtext {
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+      margin-left: -10px;
+    }
+  }
+
+  .commands .commandslist {
+    margin-left: 2.5em;
+}

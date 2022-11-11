@@ -1,0 +1,82 @@
+.about {
+    display : inline-flex; 
+    align-items: center;
+    font-size: 1em ;
+}
+
+.about .aboutimg {
+    width:  190px;
+    border:  3px solid green;
+    box-shadow: 5px -5px 5px green  ;
+    object-fit: cover;
+    
+}
+
+.about .aboutdescript {
+    word-wrap: break-word;
+    max-width: 60em;
+}
+
+.about .aboutdescript .abouttext {
+    margin-left: 2.5em;
+}
+
+@media only screen and (max-width: 1175px) and (min-width:970px){
+    .about .aboutimg {
+        width: 180px;    
+    }
+    .about .aboutdescript  {
+        word-wrap: break-word;
+        max-width: 45em;
+        margin-left: .3em;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 970px) and (min-width:620px){
+    .about {
+        display : block; 
+        font-size: 1em ;
+    }
+    .about .aboutimg { 
+        margin-left: 2em;  
+        width: 200px; 
+        height: 200px; 
+    }
+    .about .aboutdescript  {
+        font-size: .9em;
+        word-wrap: break-word;
+        max-width: 50em;
+    }
+}
+
+@media only screen and (max-width: 620px) and (min-width:560px){
+    .about {
+        display : block; 
+    }
+    .about .aboutimg {
+        width: 200px; 
+        height: 200px;
+        margin-left: 2em; 
+    }
+    .about .aboutdescript  {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .about {
+        display : block; 
+    }
+    .about .aboutimg {
+        width: 180px;
+        height: 180px; 
+        margin-left: 2em; 
+        
+    }
+    .about .aboutdescript  {
+        font-size: .9em;
+        word-wrap: break-word;
+        max-width: 30em;
+    }
+}
